@@ -50,7 +50,6 @@ class MyApp extends StatelessWidget {
                   left: 30,
                   right:30,
                 ),
-
                 child: Padding(
                   padding: EdgeInsets.all(5),
 
@@ -61,7 +60,6 @@ class MyApp extends StatelessWidget {
                         size: 25,
                         color: Colors.lightBlue,
                       ),
-
                     title:
                     Text(
                       '+55 (31) 98657 9962',
@@ -71,16 +69,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
-
               Card(
                   margin: EdgeInsets.symmetric(
                     vertical: 10,
                     horizontal: 30,
                   ),
-
                   child: Padding(
                     padding: EdgeInsets.all(5),
-
                     child:
                     ListTile(
                       leading:
@@ -96,8 +91,31 @@ class MyApp extends StatelessWidget {
                         ),
                     ),
                   )
-              )
+              ),
 
+              Card(
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10,
+                    horizontal: 30,
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.all(5),
+                    child:
+                    ListTile(
+                      leading:
+                      Icon(
+                        Icons.public,
+                        size: 25,
+                        color: Colors.lightBlue,
+                      ),
+                      title:
+                      Text(
+                        'github.com/alexandre-roque',
+                        style: TextStyle(fontFamily: 'Poppins', color:Colors.lightBlue, fontSize: 15, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  )
+              )
             ],
           ),
         ),
