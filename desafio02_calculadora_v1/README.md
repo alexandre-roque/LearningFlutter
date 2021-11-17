@@ -1,1 +1,0 @@
-Projeto destinado a resolver o desafio proposto, versão 1
